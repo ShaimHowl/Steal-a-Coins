@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(150, 174, 240);
+}
 .Titulo {
     text-align: center;
     font-size: 50px;
@@ -7,6 +10,26 @@
     letter-spacing: 10px;
     animation: brillo 2s infinite alternate;
   }
+
+
+.Titulo img{
+    height: 300px;
+}
 body{
-    background-color: rgb(204, 204, 204)  ;
+    background-color: rgb(150, 174, 240);
+}
+.Menu button{
+    position: absolute;
+    top: 280px; 
+    left: 20px; 
+    z-index: 10; 
+    font-size: 40px;
+}
+.Menu2 button{
+   
+    position: absolute;
+    top: 350px; 
+    left: 20px; 
+    z-index: 10; 
+    font-size: 40px;
 }
