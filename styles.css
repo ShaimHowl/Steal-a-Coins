@@ -1,5 +1,11 @@
 body{
-    background-color: rgb(150, 174, 240);
+    
+        background-image: url('imagen/fondo.png');
+       background-size: cover;       
+        background-repeat: no-repeat; 
+        background-position: center;  
+    background-attachment: fixed; 
+      
 }
 .Titulo {
     text-align: center;
@@ -28,7 +34,15 @@ body{
 .Menu2 button{
    
     position: absolute;
-    top: 350px; 
+    top: 370px; 
+    left: 20px; 
+    z-index: 10; 
+    font-size: 40px;
+}
+.Menu3 button {
+   
+    position: absolute;
+    top: 460px; 
     left: 20px; 
     z-index: 10; 
     font-size: 40px;
