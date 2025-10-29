@@ -1,0 +1,12 @@
+.Titulo {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgb(11, 27, 243);
+    text-shadow: 0 0 10px rgb(39, 34, 34), 0 0 30px rgb(19, 16, 16);
+    letter-spacing: 10px;
+    animation: brillo 2s infinite alternate;
+  }
+body{
+    background-color: rgb(204, 204, 204)  ;
+}
