@@ -1,0 +1,12 @@
+body{
+    background-image: url('imagen/fondo1.png');
+}
+.Titulo {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgb(78, 78, 77);
+    text-shadow: 0 0 10px rgb(247, 30, 22), 0 0 30px rgb(247, 33, 26);
+    letter-spacing: 10px;
+    animation: brillo 2s infinite alternate;
+  }
