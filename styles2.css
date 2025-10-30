@@ -1,12 +1,24 @@
 body{
-    background-image: url('imagen/fondo1.png');
+   
+    background-image: url('imagen/fondob.png');
+    background-size: cover;       
+     background-repeat: no-repeat; 
+     background-position: center;  
+     background-attachment: fixed;
 }
 .Titulo {
     text-align: center;
     font-size: 50px;
     font-family: 'Trebuchet MS', sans-serif;
-    color: rgb(78, 78, 77);
-    text-shadow: 0 0 10px rgb(247, 30, 22), 0 0 30px rgb(247, 33, 26);
+    color: rgb(253, 249, 10);
+    text-shadow: 0 0 10px rgb(250, 188, 18), 0 0 30px rgb(243, 187, 32);
     letter-spacing: 10px;
     animation: brillo 2s infinite alternate;
+  }
+
+  .Volver button{
+        position: absolute;
+        font-size: 40px;
+        top: 20px;
+        left: 20px;
   }
