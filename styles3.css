@@ -1,0 +1,30 @@
+body{
+   
+    background-image: url('imagen/fondob.png');
+    background-size: cover;       
+     background-repeat: no-repeat; 
+     background-position: center;  
+     background-attachment: fixed;
+}
+.Titulo {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgb(11, 240, 22);
+    text-shadow: 0 0 10px rgb(82, 245, 90), 0 0 30px rgb(78, 241, 91);
+    letter-spacing: 10px;
+    animation: brillo 2s infinite alternate;
+  }
+
+ .Volver button{
+        position: absolute;
+        font-size: 30px;
+        top: 20px;
+        left: 20px;
+        background-color: rgb(148, 144, 144);
+  }
+
+   .Volver button:hover{
+    color:blue;
+    background-color: rgb(240, 235, 235);
+  }
