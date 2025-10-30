@@ -27,7 +27,7 @@ body {
     top: 280px; 
     left: 20px; 
     z-index: 10; 
-    font-size: 40px;
+    font-size: 40px; z-index: 30px;
 }
 
 .Menu2 button{
@@ -45,4 +45,11 @@ body {
     left: 20px; 
     z-index: 10; 
     font-size: 40px;
+}
+
+img{
+    
+    
+
+
 }
